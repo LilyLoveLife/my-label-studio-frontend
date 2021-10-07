@@ -6,9 +6,9 @@ import Messages from "../utils/messages";
 /**
  * Text
  */
-import { DialogueAnalysis } from "../examples/dialogue_analysis";
-import { NamedEntity } from "../examples/named_entity";
-import { References } from "../examples/references";
+// import { DialogueAnalysis  as SandboxConfig } from "../examples/dialogue_analysis";
+// import { NamedEntity  as SandboxConfig } from "../examples/named_entity";
+// import { References  as SandboxConfig } from "../examples/references";
 import { Required } from "../examples/required";
 import { Sentiment } from "../examples/sentiment_analysis";
 import { Nested as NestedSimple } from "../examples/nested_choices";
@@ -18,10 +18,12 @@ import { Dialogue } from "../examples/phrases";
 /**
  * Audio
  */
-import { AudioClassification } from "../examples/audio_classification";
-import { AudioRegions } from "../examples/audio_regions";
-import { TranscribeAudio } from "../examples/transcribe_audio";
-import { VideoRegions } from "../examples/video";
+// import { AudioClassification  as SandboxConfig } from "../examples/audio_classification";
+// import { AudioRegions  as SandboxConfig } from "../examples/audio_regions";
+// import { TranscribeAudio  as SandboxConfig } from "../examples/transcribe_audio";
+// import { VideoRegions as SandboxConfig } from "../examples/video";
+import { VideoTimeline as SandboxConfig } from "../examples/video_timeline";
+
 
 /**
  * Image
@@ -56,7 +58,9 @@ import { Repeater } from "../examples/repeater";
 
 import { TimeSeries } from "../examples/timeseries";
 import { TimeSeriesSingle } from "../examples/timeseries_single";
-import { SandboxConfig } from "../examples/_sandbox_config";
+// import { SandboxConfig } from "../examples/_sandbox_config";
+// import { AudioClassification as SandboxConfig } from "../examples/audio_classification";
+
 
 /**
  * Custom Data
